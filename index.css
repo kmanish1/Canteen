@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(pizza.jpg); */
+    /* background-size: cover; */
+    background-color: black;
+}
+.navbar{
+    color: rgb(245, 230, 230);
+}
+.navbar ul{
+    text-decoration: none;
+    display: flex;
+    font-size: 32px;
+    flex-wrap: wrap;
+    justify-content: right;
+    list-style: none;
+    align-content: center;
+    
+    
+}
+.title{
+    color: gainsboro;
+    display: inline;
+    left: 0px;
+    font-size: 20px;
+    padding-bottom:0px;
+    padding-left: 0px;
+    margin: 0px;
+    border: 2px solid red;
+}
+img{
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
+    width: 50%;
+    
+}
+.navbar ul li a{
+    /* border: 2px solid red; */
+    text-decoration: none;
+    color: gainsboro;
+    /* color:black; */
+    padding: 8px 15px 15px 15px;
+    margin: 26px;
+    top: 10px;
+}
